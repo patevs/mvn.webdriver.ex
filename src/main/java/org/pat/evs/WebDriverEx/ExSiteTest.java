@@ -7,7 +7,7 @@ import com.github.webdriverextensions.junitrunner.annotations.Chrome;
 import com.github.webdriverextensions.junitrunner.annotations.Firefox;
 //import com.github.webdriverextensions.junitrunner.annotations.HtmlUnit;
 //import com.github.webdriverextensions.junitrunner.annotations.InternetExplorer;
-import com.github.webdriverextensions.junitrunner.annotations.PhantomJS;
+//import com.github.webdriverextensions.junitrunner.annotations.PhantomJS;
 
 import org.junit.runner.RunWith;
 
@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 @Firefox
 @Chrome
 //@InternetExplorer
-@PhantomJS
+//@PhantomJS
 //@HtmlUnit
 public class ExSiteTest {
 

@@ -18,10 +18,5 @@ public class MainPageTest extends ExSiteTest {
         assertIsOpen(mainPage);
     }
     
-    @Test
-    public void lookAtMainPageTest() throws Exception {
-        open(site);
-        assertIsOpen(mainPage);
-    }
 }
 
