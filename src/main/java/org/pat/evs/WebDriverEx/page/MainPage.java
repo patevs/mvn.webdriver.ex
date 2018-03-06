@@ -1,6 +1,6 @@
 package org.pat.evs.WebDriverEx.page;
 
-import org.pat.evs.WebDriverEx.ExampleSite;
+import org.pat.evs.WebDriverEx.ExSite;
 import org.pat.evs.WebDriverEx.component.ExampleWebComponent;
 import com.github.webdriverextensions.WebPage;
 import org.openqa.selenium.support.FindBy;
@@ -16,7 +16,7 @@ public class MainPage extends WebPage {
 	private static final Logger log = LoggerFactory.getLogger(MainPage.class);
 
     // Url
-    public String url = ExampleSite.url;
+    public String url = ExSite.url;
 
     // Model
     @FindBy(css = "cssselector")
